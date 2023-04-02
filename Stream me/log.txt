@@ -1,0 +1,176 @@
+Sun Apr  2 10:44:19 2023
+Windows-10-10.0.19045
+Ren'Py 8.0.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.07s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.04s
+Loading script took 0.19s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\devco\\Desktop\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\devco\\AppData\\Roaming/RenPy/backups\\Stream me':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 2500'
+Version: b'4.0.0 - Build 10.18.10.4358'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 15, in script
+    "It's been three days since you got layed off from your awful office job. These couple days have been a wreck, sure, but it's also been ever so relieving."
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 891, in execute
+    statement_name("say")
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 1657, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 2798, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/bgmusic.mp3'.
+
+While running game code:
+  File "game/script.rpy", line 15, in script
+    "It's been three days since you got layed off from your awful office job. These couple days have been a wreck, sure, but it's also been ever so relieving."
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'audio/bgmusic.mp3'.
+Resetting cache.
+Bootstrap to the start of init.init took 24.78s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.12s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\devco\\Desktop\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 2500'
+Version: b'4.0.0 - Build 10.18.10.4358'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 15, in script
+    "It's been three days since you got layed off from your awful office job. These couple days have been a wreck, sure, but it's also been ever so relieving."
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\devco\Desktop\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/bgmusic.mp3'.
+
+While running game code:
+  File "game/script.rpy", line 15, in script
+    "It's been three days since you got layed off from your awful office job. These couple days have been a wreck, sure, but it's also been ever so relieving."
+OSError: Couldn't find file 'audio/bgmusic.mp3'.
